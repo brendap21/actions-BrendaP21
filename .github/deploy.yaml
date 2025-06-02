@@ -8,6 +8,7 @@ jobs:
   deploy-actionsBredaP21:
     runs-on: ubuntu-latest
     steps:
+      uses: actions/checkout@v4
       run: echo "Hola Mundo"
       run: echo "Correr Migraciones"
       run: echo "Generar binario"

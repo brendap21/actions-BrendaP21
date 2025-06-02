@@ -1,4 +1,4 @@
-name: "Hola Mundo"
+name: "Deploy BredaP21"
 
 on: 
   push:
@@ -8,8 +8,8 @@ jobs:
   deploy-actionsBredaP21:
     runs-on: ubuntu-latest
     steps:
-      uses: actions/checkout@v4
-      run: echo "Hola Mundo"
-      run: echo "Correr Migraciones"
-      run: echo "Generar binario"
-      run: echo "Publicar Version"
+    - uses: actions/
+    - run: echo "Hola Mundo"
+    - run: echo "Correr Migraciones"
+    - run: echo "Generar binario"
+    - run: echo "Publicar Version"
